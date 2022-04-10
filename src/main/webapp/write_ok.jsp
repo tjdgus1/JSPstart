@@ -13,7 +13,7 @@
 </html>
 <%
 	String name = request.getParameter("name"); //name변수에, name폼의 값을 가져와서 저장.
-	String juso = request.getParameter("juso");
+	String juso = request.getParameter("juso"); //juso변수에 ,juso폼의 값을 가져와서 저장.
 	String phone = request.getParameter("phone");
 	String age = request.getParameter("age");
 	String pay = request.getParameter("pay");
